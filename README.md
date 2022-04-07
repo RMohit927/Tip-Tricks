@@ -1,5 +1,11 @@
 # Tip-Tricks
 
+## Download File from Kaggle:
+```
+from IPython.display import FileLink
+FileLink(r'./model.h5')
+```
+
 ## Visual Studio Code Extensions(Installation Tips):
 - prettier
 - Material icon theme
