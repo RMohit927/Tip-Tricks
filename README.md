@@ -32,3 +32,9 @@ FileLink(r'./model.h5')
   ```
   =TEXTJOIN(" ",1,SORT(FILTERXML("<x><y>"&SUBSTITUTE(F6,",","</y><y>")&"</y></x>","//y")))
   ```
+
+
+## Azure Boards:
+
+1. How to get last week workitem only:
+![image](https://user-images.githubusercontent.com/86957308/165046225-e22f3ad5-7db4-4553-8c7e-cc0bcf9bb4e8.png)
