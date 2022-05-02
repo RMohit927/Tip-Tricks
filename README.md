@@ -32,6 +32,11 @@ FileLink(r'./model.h5')
   ```
   =TEXTJOIN(" ",1,SORT(FILTERXML("<x><y>"&SUBSTITUTE(F6,",","</y><y>")&"</y></x>","//y")))
   ```
+4. Extract sub-text from string whose sub-text between Bracket "[]" OR "{}" OR"()"
+  ```
+  =MID(B2,SEARCH("[",B2)+1,SEARCH("]",B2)-SEARCH("[",B2)-1)
+  ```
+
 
 
 ## Azure Boards:
