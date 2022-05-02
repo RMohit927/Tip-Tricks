@@ -36,7 +36,10 @@ FileLink(r'./model.h5')
   ```
   =MID(B2,SEARCH("[",B2)+1,SEARCH("]",B2)-SEARCH("[",B2)-1)
   ```
-
+5. General way to extract sub-string from string starts from 'UCM' and also replace brackets as well
+  ```
+  =SUBSTITUTE(SUBSTITUTE(TRIM(LEFT(SUBSTITUTE(MID(C3,FIND("UCM",C3),LEN(C3))," ",REPT(" ",100)),100)),"[",""),"]","")
+  ```
 
 
 ## Azure Boards:
