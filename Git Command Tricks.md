@@ -75,6 +75,20 @@ echo logs/ > .gitignore
 code .gitignore
 ```
 
+13. Add remote origin for push the code
+```
+git remote add origin "url..."
+```
+
+14. Verify the new Remote
+```
+git remote -v
+```
+
+15. Push code to another branch by up stream
+```
+git push --set-upstream origin "branch_name"
+```
 
 
 ## How to work with rebase in git:
