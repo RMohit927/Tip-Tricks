@@ -116,3 +116,15 @@ git checkout master
 git rebase feature
 git push
 ```
+
+```
+git log --graph --oneline
+git log --oneline
+git status
+git rebase -i HEAD~2 -> change the comment of 2nd last commit
+- change "pick" into "reword" save
+- change comment then done. and save
+git rebase --continue
+git branch feature -> for creating new branch
+git branch -a  -> list all git branch
+```
