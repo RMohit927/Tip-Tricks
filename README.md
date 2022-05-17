@@ -41,6 +41,16 @@ FileLink(r'./model.h5')
   ```
   =SUBSTITUTE(SUBSTITUTE(TRIM(LEFT(SUBSTITUTE(MID(C3,FIND("UCM",C3),LEN(C3))," ",REPT(" ",100)),100)),"[",""),"]","")
   ```
+6. Find The Word from String Query
+  ```
+  =IF(ISNUMBER(FIND("prix",G2,1)),TRUE,FALSE)
+  ```
+7. Find the Exact Word from String Query
+  ```
+  =ISNUMBER(SEARCH(" low ", " "&A2&" "))
+  ```
+
+
 
 
 ## Azure Boards:
