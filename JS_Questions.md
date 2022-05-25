@@ -14,11 +14,33 @@
 13. What are the parameters Refuse function can accepts?
 14. have you worked on promises? Difference between Promises and callback?
 
+1. can we use typescript in react
+2. difference between callback and closure function in react js
+3. what is strict mode in react
+4. difference between props and state in react js
+5. disadvantages of prop drilling in react
+6. spread and rest operator in react js
+7. disadvantages of prop drilling in react
+8. decorators in react
+9. subscribe in react
+10. what is action and reducer
+11. flux react
+12. what is references in react
+13. when we use rest operator in react
+
+
 ## CSS Questions:
 1. What are the position attribute you used and what the difference between them.
 2. sub child position is absolute and parent position is relative then this sub child is align to which relative element.
 3. what is Flex box
 4. difference between display:none and visibility:hidden
+5. can i have more than one head in html -> No
+6. difference between relative and absolute position css
+7. what is fixed position in css
+8. what is z index css
+9. what is offset column in bootstrap
+10. can i change 24 column in bootstrap
+11. which approach use desktop or mobile first
 
 ## React
 1. what are the Hooks you have used? useState, useEffect, useReducer, useSelector, useMemo, useCallback - what is the purpose of it.
