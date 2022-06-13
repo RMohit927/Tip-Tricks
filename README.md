@@ -57,3 +57,8 @@ FileLink(r'./model.h5')
 
 1. How to get last week workitem only:
 ![image](https://user-images.githubusercontent.com/86957308/165046225-e22f3ad5-7db4-4553-8c7e-cc0bcf9bb4e8.png)
+
+
+## Installing Aether VS Extenstion:
+
+1. Error [Link](https://stackoverflow.com/questions/69218960/cannot-install-an-extension-in-visual-studio-2019-due-to-missing-references/69226397#69226397)
