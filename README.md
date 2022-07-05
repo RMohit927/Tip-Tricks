@@ -1,5 +1,8 @@
 # Tip-Tricks
 
+## RegEx in T-SQL Query
+https://www.sqlshack.com/t-sql-regex-commands-in-sql-server/
+
 ## Download File from Kaggle:
 ```
 from IPython.display import FileLink
