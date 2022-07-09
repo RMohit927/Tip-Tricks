@@ -128,3 +128,19 @@ git rebase --continue
 git branch feature -> for creating new branch
 git branch -a  -> list all git branch
 ```
+
+### Basic GitLab Commands:
+
+```
+git config --global http.sslBackend "openssl"
+```
+
+```
+git config --global http.sslBackend
+```
+
+```
+git config --global http.sslbackend schannel
+```
+
+Then you can able to clone the repo.
