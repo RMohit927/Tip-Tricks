@@ -94,6 +94,13 @@ git push --set-upstream origin "branch_name"
 ## How to work with rebase in git:
 ----------------------------------
 
+- get all updated branches from git using below command
+```
+git fetch
+
+git checkout master
+```
+
 - git log --graph --oneline
 ```
 git pull
