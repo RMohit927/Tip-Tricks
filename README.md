@@ -52,8 +52,15 @@ FileLink(r'./model.h5')
   ```
   =ISNUMBER(SEARCH(" low ", " "&A2&" "))
   ```
-
-
+8. Find Unique AdInfoScore from Array
+  ```
+  =UNIQUE(A2:A142)
+  ```
+9. Find Fiscal Year from Created Date
+  ```
+  =YEAR(DATE(YEAR(E2),MONTH(E2)+($I$2-1),1))
+  ```
+  ![image](https://user-images.githubusercontent.com/86957308/189090097-38a6902d-8b43-4c06-b5af-3b1a518218a1.png)
 
 
 ## Azure Boards:
