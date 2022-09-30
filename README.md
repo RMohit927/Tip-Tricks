@@ -10,7 +10,7 @@ FileLink(r'./model.h5')
 ```
 
 ## CSV Hacks
-1. How to Write data into CSV using `String Builder` and SuperScript the hashstric before data like 
+1. How to Write data into CSV using `String Builder` and SuperScript the hashstric before data like [LINK](https://stackoverflow.com/questions/23862622/how-to-format-superscript-string-in-c)
 ```
 StringBuilder str = new StringBuilder();
 var line = "\xB*InvoiceNo, \xB*Customer, \xB*InvoiceDate, \xB*DueDate, Term, Location, Memo, Item(Product/Service), ItemDescription, " +
