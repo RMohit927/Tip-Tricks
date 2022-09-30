@@ -9,6 +9,20 @@ from IPython.display import FileLink
 FileLink(r'./model.h5')
 ```
 
+## CSV Hacks
+1. How to Write data into CSV using `String Builder` and SuperScript the hashstric before data like 
+```
+StringBuilder str = new StringBuilder();
+var line = "\xB*InvoiceNo, \xB*Customer, \xB*InvoiceDate, \xB*DueDate, Term, Location, Memo, Item(Product/Service), ItemDescription, " +
+                    "ItemQuantity, ItemRate, \xB*ItemAmount, \xB*ItemTextCode, ItemTaxAmount, Currency, ServiceDate";
+str.AppendLine(line);
+str.AppendLine();
+
+File.WriteAllText("D:\\test.csv", str.ToString());
+```
+![image](https://user-images.githubusercontent.com/86957308/193277709-f5fb7baf-1612-4609-addc-d6d81078b752.png)
+
+
 ## Visual Studio Code Extensions(Installation Tips):
 - prettier
 - Material icon theme
