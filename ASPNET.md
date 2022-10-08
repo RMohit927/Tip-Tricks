@@ -8,7 +8,14 @@ curl https://api.stripe.com/v1/webhook_endpoints -u sk_live_51LQL9UKV5xxxxxxxxxx
 
 ```
 
-## Azure Key Vault Connection to ASP.NET core
+## Azure Key Vault Connection to ASP.NET core:
+Helpful Nuget Package:
+----------------------
+1. Azure.Identity
+2. Azure.Security.KeyVault.Secrets
+3. Microsoft.Extensions.Configuration.AzureKeyVault
+4. Azure.Extensions.AspNetCore.Configuration.Secrets
+
 Console App: 
 -----------
 1. https://www.c-sharpcorner.com/blogs/fetching-secrets-from-key-vault-in-net-console-app
