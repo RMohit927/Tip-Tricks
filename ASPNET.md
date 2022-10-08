@@ -8,6 +8,19 @@ curl https://api.stripe.com/v1/webhook_endpoints -u sk_live_51LQL9UKV5xxxxxxxxxx
 
 ```
 
+## Azure Key Vault Connection to ASP.NET core
+Console App: 
+-----------
+1. https://www.c-sharpcorner.com/blogs/fetching-secrets-from-key-vault-in-net-console-app
+2. https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-net?tabs=azure-cli
+
+App:
+----
+1. https://learn.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0
+2. ![image](https://user-images.githubusercontent.com/86957308/194701466-e18accfe-526c-4b9e-89b1-4bed481a661d.png)
+3. https://www.youtube.com/watch?v=RTq72C10x88
+4. https://github.com/a-patel/azure-key-vault-labs
+
 ## Pdf Password Protected Check:
 ```
 1. Using ITextSharp:
@@ -63,3 +76,5 @@ namespace IsPdf_Password_Protected
 }
 
 ```
+
+
