@@ -75,7 +75,10 @@ File.WriteAllText("D:\\test.csv", str.ToString());
   =YEAR(DATE(YEAR(E2),MONTH(E2)+($I$2-1),1))
   ```
   ![image](https://user-images.githubusercontent.com/86957308/189090097-38a6902d-8b43-4c06-b5af-3b1a518218a1.png)
-
+10. Find Week Number based on Month in excel
+  ```
+  =WEEKNUM(E2,2)-WEEKNUM(DATE(YEAR(E2),MONTH(E2),1),2)+1
+  ```
 
 ## Azure Boards:
 
