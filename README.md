@@ -81,7 +81,13 @@ File.WriteAllText("D:\\test.csv", str.ToString());
   =WEEKNUM(E2,2)-WEEKNUM(DATE(YEAR(E2),MONTH(E2),1),2)+1
   ```
   ![image](https://user-images.githubusercontent.com/86957308/197994562-684332c3-3525-415f-bfdd-013c0f94bf2a.png)
+   <br>
+11. count no of cells where
 
+ each cell contains sub string as "es" etc.
+   ```
+   =COUNTIF(D2:D15, "*es*")
+   ```
 
 ## Azure Boards:
 
