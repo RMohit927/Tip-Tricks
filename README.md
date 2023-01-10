@@ -82,12 +82,16 @@ File.WriteAllText("D:\\test.csv", str.ToString());
   ```
   ![image](https://user-images.githubusercontent.com/86957308/197994562-684332c3-3525-415f-bfdd-013c0f94bf2a.png)
    <br>
-11. count no of cells where
-
- each cell contains sub string as "es" etc.
+11. count no of cells where each cell contains sub string as "es" etc.
    ```
    =COUNTIF(D2:D15, "*es*")
    ```
+  <br>
+12. Search if current text exist in anywhere between range cell in excell sheet
+  ```
+  =IF(COUNTIF($D$1:$D$365, A1)>0, "YES", "NO")
+  ```
+
 
 ## Azure Boards:
 
